@@ -29,7 +29,6 @@ const Random = () => {
     <div className = 'layout'>
         <div>Random hero</div>
         {loading ? <p>Loading...</p> :  <HeroJob superHero={superHero} />}
-       
     </div>
   )
 }

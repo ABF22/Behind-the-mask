@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Heros = ({superHeros}) => {
+  console.log(superHeros)
   return (
     <div className="superH">
       {superHeros.map(hero => <Link to={`${hero.id}`}>
