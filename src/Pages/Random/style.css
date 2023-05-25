@@ -1,0 +1,8 @@
+.layout{
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    max-height: 300px;
+}

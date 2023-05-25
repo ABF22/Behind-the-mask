@@ -12,10 +12,10 @@ function App() {
         <Route path="/" element={<NavBar />}>
           <Route index element={<Pages.Home />}/>
           <Route path="/about" element={<Pages.About />}/>
-          {/* <Route path="/superJobs" element={<Pages.SuperJobs />}/>
-          <Route path="/superJobs/:id" element={<Pages.SuperJob />}/> */}
-          {/* <Route path="/random" element={<Pages.Random />}/>
-          <Route path="/search" element={<Pages.Search />}/> */}
+          <Route path="/superJobs" element={<Pages.SuperJobs />}/>
+          <Route path="/superJobs/:id" element={<Pages.SuperJobs />}/>
+          <Route path="/random" element={<Pages.Random />}/> 
+          {/* <Route path="/search" element={<Pages.Search />}/> */}
           <Route path="*" element={<Pages.NotFound />}/>
         </Route> 
       </Routes>
