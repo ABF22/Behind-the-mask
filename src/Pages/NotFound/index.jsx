@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.css'
 
 const NotFound = () => {
   return (
-    <div>404: Page Not Found</div>
+    <div className='noFound'>404: Page Not Found</div>
   )
 }
 
