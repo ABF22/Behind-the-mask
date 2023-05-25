@@ -4,7 +4,7 @@
 - First run `npm install` in the terminal.
 - Then run `npm run dev` to lanch app.
 - Then follow the link to your local host.
-- make a access code on the superhero api and put that in a `.env` file or put that straight in the api fetch call, would be much easier. **replace the process.env.REACT_APP_ACCESS_CODE if you do **
+- make a access code on the superhero api and put that in a `.env` file or put that straight in the api fetch call, would be much easier. **replace the `process.env.REACT_APP_ACCESS_CODE` if you do**
 
 ## working pages 
 
