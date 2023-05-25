@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.css'
 
 const Home = () => {
   return (
-    <div>Welcome to Behind the Mask</div>
+    <div className='welcome'>Welcome to Behind the Mask</div>
   )
 }
 
