@@ -8,7 +8,7 @@ const SuperJob = () => {
 
   useEffect(() => {
     async function fetchHero() {
-      const response = await fetch(`https://superheroapi.com/api/${2268091433374349}/${id}`)
+      const response = await fetch(`https://superheroapi.com/api.php/${process.env.REACT_APP_ACCESS_CODE}/${id}`)
       const data = await response.json()
       setHero(data)
     }

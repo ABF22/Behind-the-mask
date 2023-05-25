@@ -1,20 +1,20 @@
 import React, {useState, useEffect} from 'react'
 import {Heros} from '../../Components'
-//  const access = process.env.REACT_APP_ACCESS_CODE
 
 const SuperJobs = () => {
     const [superHero,setSuperHero] = useState([]);
 
     const get100 = () => {
-        for(let i =0; i <100 ;i++){
+      let i =0
+      while(i <100){
+        i += 1;
             return i
         }
     }
-    let list = 700;
-    const rand = Math.floor(Math.random()*list)
+  console.log(get100())
   async function fetchSuperhero() {
     try {
-      const response = await fetch(`https://superheroapi.com/api/${access}/${get100}`)
+      const response = await fetch(`https://superheroapi.com/api.php/${process.env.REACT_APP_ACCESS_CODE}/${get100()}`)
       const data = await response.json()
       setSuperHero(data)
     } catch (error) {
