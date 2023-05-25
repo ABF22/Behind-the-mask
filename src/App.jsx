@@ -14,8 +14,8 @@ function App() {
           <Route path="/about" element={<Pages.About />}/>
           {/* <Route path="/superJobs" element={<Pages.SuperJobs />}/>
           <Route path="/superJobs/:id" element={<Pages.SuperJob />}/> */}
-          {/* <Route path="/random" element={<Pages.Random />}/>
-          <Route path="/search" element={<Pages.Search />}/> */}
+          <Route path="/random" element={<Pages.Random />}/>
+          <Route path="/search" element={<Pages.Search />}/>
           <Route path="*" element={<Pages.NotFound />}/>
         </Route> 
       </Routes>
