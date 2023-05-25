@@ -1,14 +1,5 @@
 # Behind The Mask
 
-## To do list (to be deleted when all is done)
-- Home page - basically done
-- About page - basiclly done
-- random page give u random superhero
-- superjobs -
-    - click and see super job
-    - serach bar on superjobs
-- not found page - basically done  
-
 ## Setup
 - First run `npm install` in the terminal.
 - Then run `npm run dev` to lanch app.
@@ -22,3 +13,8 @@
 | Home  |'/'| The home page|
 | About |'/about'| what this site is about|
 | Random |'/random'| gives you a random hero and what they do for a living|
+
+## To do list (to be deleted when all is done)
+- superjobs -
+    - click and see super job
+    - serach bar on superjobs
